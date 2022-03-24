@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<?php if (isset($_SESSION['userId'])) { ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-danger">
     <div class="container">
         <a href="" class="navbar-brand">BRAND</a>
@@ -31,7 +33,11 @@
                         <li><a href="" class="dropdown-item"> LinkedIn</a></li>
                     </ul>
                 </li>
+                <li><a href="" class="nav-link"><?php echo $_SESSION['name']?></a></li>
+                <li><a href="action.php?page=logout" class="nav-link">Logout</a></li>
+
             </ul>
         </div>
     </div>
 </nav>
+<?php } ?>

@@ -1,4 +1,10 @@
 <?php include "pages/header.php";?>
+<?php
+    if (!isset($_SESSION['userId']))
+    {
+        header('Location: action.php?page=login');
+    }
+?>
 
     <section class="py-5 bg-black s-height">
         <div class="container">

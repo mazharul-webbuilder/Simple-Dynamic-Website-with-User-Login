@@ -1,0 +1,18 @@
+Project Name: Simple Dynamic Website with User Login
+Language: Html, CSS, Bootstrap, Raw-PHP
+
+-> Used User Array insted of Database
+-> 2 sample user
+	
+	Email:      mazharul@gmail.com
+	password:   1234
+
+	Email:	    afran@gmail.com
+	Password:   1234
+
+
+Thanks for visiting.
+Contact:
+Mazharul Islam
+mazharulislam1998r@gmail.com
++880 1638574281
